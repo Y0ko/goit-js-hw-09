@@ -10,7 +10,7 @@ function onStartBtnClick() {
   startBtn.disabled = true;
   timerId = setInterval(() => {
     bodyEll.style.background = getRandomHexColor();
-  }, 200);
+  }, 1000);
 }
 
 function onStopBtnClick() {
